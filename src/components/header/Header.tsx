@@ -4,6 +4,7 @@ import HeaderSocial from "./HeaderSocial";
 
 import CTA from "./CTA";
 import ME from "../../assets/me.png";
+import { ID_NAV } from "../../helpers/constants";
 
 const Header = () => {
     return (
@@ -19,7 +20,7 @@ const Header = () => {
                     <img src={ME} alt="me" />
                 </div>
 
-                <a href="#contact" className="scroll__down">
+                <a href={ID_NAV.contact} className="scroll__down">
                     Scroll Down
                 </a>
             </div>

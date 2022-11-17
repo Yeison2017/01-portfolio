@@ -8,13 +8,14 @@ import { BiMessageSquareDetail } from "react-icons/Bi";
 import "./nav.css";
 import { IconType } from "react-icons/lib";
 import { memo } from "react";
+import { ID_NAV } from "../../helpers/constants";
 interface Nav_a_Props {
     dirNav: string;
     IconType: IconType;
 }
 
 const Nav = () => {
-    const [activeNav, setActiveNav] = useState<string>("#");
+    const [activeNav, setActiveNav] = useState<string>(ID_NAV.start);
 
     const Nav_a = ({ dirNav, IconType }: Nav_a_Props) => {
         return (
@@ -30,11 +31,11 @@ const Nav = () => {
 
     return (
         <nav>
-            <Nav_a dirNav="#" IconType={AiOutlineHome} />
-            <Nav_a dirNav="#about" IconType={AiOutlineUser} />
-            <Nav_a dirNav="#experience" IconType={BiBook} />
-            <Nav_a dirNav="#services" IconType={RiServiceLine} />
-            <Nav_a dirNav="#contact" IconType={BiMessageSquareDetail} />
+            <Nav_a dirNav={ID_NAV.start} IconType={AiOutlineHome} />
+            <Nav_a dirNav={ID_NAV.about} IconType={AiOutlineUser} />
+            <Nav_a dirNav={ID_NAV.experience} IconType={BiBook} />
+            <Nav_a dirNav={ID_NAV.services} IconType={RiServiceLine} />
+            <Nav_a dirNav={ID_NAV.contact} IconType={BiMessageSquareDetail} />
         </nav>
     );
 };

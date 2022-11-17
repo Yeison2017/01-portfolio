@@ -1,4 +1,5 @@
 import CV from "../../assets/cv.pdf";
+import { ID_NAV } from "../../helpers/constants";
 
 const CTA = () => {
     return (
@@ -6,7 +7,7 @@ const CTA = () => {
             <a href={CV} download className="btn">
                 Dowload CV
             </a>
-            <a href="#contact" className="btn btn-primary">
+            <a href={ID_NAV.contact} className="btn btn-primary">
                 Let's Talk
             </a>
         </div>
