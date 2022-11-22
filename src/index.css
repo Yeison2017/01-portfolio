@@ -129,6 +129,11 @@ img {
         width: var(--container-width-sm);
     }
 
+    section {
+        margin-top: 8rem;
+        height: 110vh;
+    }
+
     section > h2 {
         margin-top: 2rem;
     }
