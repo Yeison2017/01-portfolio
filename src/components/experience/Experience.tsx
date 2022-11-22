@@ -1,7 +1,5 @@
-import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-import { IconType } from "react-icons/lib";
 
 const Experience = () => {
     return (
@@ -20,7 +18,8 @@ const Experience = () => {
                         <ItemExperience title="Tailwind" />
                         <ItemExperience title="React" />
                     </div>
-
+                </div>
+                <div className="experience__backend">
                     <h3>Backend Development</h3>
                     <div className="experience__content">
                         <ItemExperience title="Node JS" />
@@ -30,7 +29,6 @@ const Experience = () => {
                         <ItemExperience title="Python" />
                     </div>
                 </div>
-                <div className="experience__backend"></div>
             </div>
         </section>
     );
@@ -49,9 +47,11 @@ const ItemExperience = ({
 }: ItemExperienceProp) => {
     return (
         <article className="experience__details">
-            <BsPatchCheckFill />
-            <h4>{title}</h4>
-            <small className="text-light">{level}</small>
+            <BsPatchCheckFill className="experience__details-icon" />
+            <div>
+                <h4>{title}</h4>
+                <small className="text-light">{level}</small>
+            </div>
         </article>
     );
 };
