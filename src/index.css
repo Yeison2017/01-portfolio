@@ -130,7 +130,8 @@ img {
 
     section {
         margin-top: 8rem;
-        height: 110vh;
+        height: auto;
+        /* height: 240vh; */
     }
 
     section > h2 {
