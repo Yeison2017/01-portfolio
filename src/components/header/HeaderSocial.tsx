@@ -1,6 +1,6 @@
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/Fi";
+import { FiDribbble } from "react-icons/fi";
 
 const HeaderSocial = () => {
     return (
