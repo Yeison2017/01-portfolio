@@ -4,6 +4,8 @@ export const ID_NAV = {
     experience: "#experience",
     services: "#services",
     contact: "#contact",
+    portfolio: "#portfolio",
+    testimonials: "#testimonials",
 };
 
 export const EMAILJS = {
