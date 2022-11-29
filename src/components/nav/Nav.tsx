@@ -2,12 +2,11 @@ import React, { useState, useCallback } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/Bi";
-import { RiServiceLine } from "react-icons/Ri";
+import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/Bi";
 
 import "./nav.css";
 import { IconType } from "react-icons/lib";
-import { memo } from "react";
 import { ID_NAV } from "../../helpers/constants";
 interface Nav_a_Props {
     dirNav: string;
