@@ -32,4 +32,4 @@ El proyecto fue creado a partir de un video tutorial de YouTube del canal "EGATO
 En comparación con el proyecto creado en el video tutorial, este proyecto utiliza TypeScript y Vite en lugar de JavaScript y “create-react-app”.
 
 ## Link
-Puedes visitar la página web del proyecto en el siguiente enlace: [URL del sitio](https://paises-angular-yha.netlify.app/)
+Puedes visitar la página web del proyecto en el siguiente enlace: [URL del sitio](https://1-porfolio-yha.netlify.app/)
