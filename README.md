@@ -17,7 +17,7 @@ Se deben agregar las capturas de pantalla para mostrar cómo se ve la página en
 ![desktop5](./src/assets/screenshots/Desktop5.jpg)
 ![desktop6](./src/assets/screenshots/Desktop6.jpg)
 ![desktop7](./src/assets/screenshots/Desktop7.jpg)
-![mobile1](./src/assets/screenshots/Mobile1.pmg)
+![mobile1](./src/assets/screenshots/Mobile1.png)
 ![mobile2](./src/assets/screenshots/Mobile2.png)
 ![mobile3](./src/assets/screenshots/Mobile3.png)
 ![mobile4](./src/assets/screenshots/Mobile4.png)
