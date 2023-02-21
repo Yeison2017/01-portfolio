@@ -6,6 +6,7 @@ Este proyecto es un diseño para un portafolio personal de un desarrollador full
 - ![icono de React](https://res.cloudinary.com/dyvccdkkl/image/upload/v1675896866/Iconos/React_yhyy73.png) React  
 - ![icono de Vite](https://res.cloudinary.com/dyvccdkkl/image/upload/v1675896866/Iconos/Vite_tm7cm3.png) Vite  
 - ![icono de TypeScript](https://res.cloudinary.com/dyvccdkkl/image/upload/v1675896866/Iconos/Typescript_fz9cmf.png) TypeScript  
+- ![icono de Netlify](https://res.cloudinary.com/dyvccdkkl/image/upload/v1676957754/Iconos/Netlify_yxm0xq.png) Netlify  
 
 ## Capturas de pantalla
 Se deben agregar las capturas de pantalla para mostrar cómo se ve la página en desktop y móvil.
