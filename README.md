@@ -26,18 +26,10 @@ Se deben agregar las capturas de pantalla para mostrar cómo se ve la página en
 ![mobile7](./src/assets/screenshots/Mobile7.png)
 
 ## Créditos
-El proyecto fue creado a partir de un video tutorial llamado "EGATOR" por el canal de YouTube [EGANYA](https://www.youtube.com/channel/UC6KxO6JuukU6eL-6G_Ow6uQ). El link del video es https://www.youtube.com/watch?v=G-Cr00UYokU.
+El proyecto fue creado a partir de un video tutorial de YouTube del canal "EGATOR". El link del video es https://www.youtube.com/watch?v=G-Cr00UYokU.
 
 ## Comparación de las tecnologías y características utilizadas
 En comparación con el proyecto creado en el video tutorial, este proyecto utiliza TypeScript y Vite en lugar de JavaScript y “create-react-app”.
-
-Video tutorial:
-- Se utiliza JavaScript
-- Se crea el proyecto con “create-react-app”
-
-Este proyecto:
-- Utiliza TypeScript
-- Se crea el proyecto con Vite
 
 ## Link
 Puedes visitar la página web del proyecto en el siguiente enlace: [URL del sitio](https://paises-angular-yha.netlify.app/)
